@@ -136,7 +136,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:button="@drawable/bulb_selector" />
 
             </LinearLayout>
 
@@ -161,7 +162,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true">
+                android:layout_alignParentTop="true"
+                android:visibility="gone">
 
                 <EditText
                     android:id="@+id/relayIdOneEditText"
@@ -177,7 +179,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true">
+                android:layout_alignParentTop="true"
+                android:visibility="gone">
 
                 <EditText
                     android:id="@+id/relayIdTwoEditText"
@@ -193,7 +196,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true">
+                android:layout_alignParentTop="true"
+                android:visibility="gone">
 
                 <EditText
                     android:id="@+id/relayIdThreeEditText"
